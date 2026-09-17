@@ -1,0 +1,18 @@
+{
+  "src": [
+    "diary/view/pages/HomePage",
+    "diary/view/pages/DetailPage",
+    "diary/view/pages/CategoryNotesPage",
+    "diary/view/pages/DeletedNotesPage",
+    "diary/view/pages/DiaryListPage",
+    "diary/view/pages/LockedNotesPage",
+    "auth/view/pages/LoginPage",
+    "auth/view/pages/RegisterPage",
+    "auth/view/pages/GesturePage",
+    "auth/view/pages/ForgotPasswordPage",
+    "diary/view/pages/LinkWebViewPage",
+    "diary/view/pages/MediaPreviewPage",
+    "diary/view/pages/ReflectionPage",
+    "diary/view/pages/StatsPage"
+  ]
+}

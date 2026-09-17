@@ -1,0 +1,58 @@
+﻿{
+  "cloudDBZoneName": "SmartStudyZone",
+  "objectTypeName": "Goal",
+  "objects": [
+    {
+      "id": "goal_001",
+      "user_id": "user_demo_001",
+      "title": "完成期末复习计划",
+      "description": "数学、英语、物理三门科目的期末复习",
+      "category": "学习",
+      "deadline": 1736092800000,
+      "status": 1,
+      "progress": 45,
+      "priority": 2,
+      "source_diary_id": "",
+      "reminder_time": 0,
+      "last_mentioned_time": 1734163200000,
+      "create_time": 1733472000000,
+      "update_time": 1734163200000,
+      "sync_status": "synced"
+    },
+    {
+      "id": "goal_002",
+      "user_id": "user_demo_001",
+      "title": "准备雅思考试",
+      "description": "目标分数7.5分",
+      "category": "语言学习",
+      "deadline": 1740585600000,
+      "status": 1,
+      "progress": 20,
+      "priority": 2,
+      "source_diary_id": "",
+      "reminder_time": 0,
+      "last_mentioned_time": 0,
+      "create_time": 1733558400000,
+      "update_time": 1733558400000,
+      "sync_status": "synced"
+    },
+    {
+      "id": "goal_003",
+      "user_id": "user_demo_001",
+      "title": "每日健身30分钟",
+      "description": "坚持运动，保持健康",
+      "category": "生活",
+      "deadline": 1738771200000,
+      "status": 1,
+      "progress": 60,
+      "priority": 1,
+      "source_diary_id": "",
+      "reminder_time": 0,
+      "last_mentioned_time": 1734076800000,
+      "create_time": 1733644800000,
+      "update_time": 1734076800000,
+      "sync_status": "synced"
+    }
+  ]
+}
+

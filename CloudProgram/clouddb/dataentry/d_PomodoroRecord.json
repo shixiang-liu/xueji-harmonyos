@@ -1,0 +1,28 @@
+{
+    "cloudDBZoneName": "SmartStudyZone",
+    "objectTypeName": "PomodoroRecord",
+    "objects": [
+        {
+            "id": "pomodoro_001",
+            "user_id": "test_user_001",
+            "task_name": "学习微积分",
+            "duration_minutes": 25,
+            "actual_minutes": 25,
+            "is_completed": true,
+            "start_time": 1734163200000,
+            "end_time": 1734164700000,
+            "sync_status": "synced"
+        },
+        {
+            "id": "pomodoro_002",
+            "user_id": "test_user_001",
+            "task_name": "复习英语单词",
+            "duration_minutes": 25,
+            "actual_minutes": 20,
+            "is_completed": false,
+            "start_time": 1734076800000,
+            "end_time": 1734078000000,
+            "sync_status": "synced"
+        }
+    ]
+}

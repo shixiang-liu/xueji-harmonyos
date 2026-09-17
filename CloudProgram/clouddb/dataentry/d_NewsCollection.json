@@ -1,0 +1,17 @@
+{
+    "cloudDBZoneName": "SmartStudyZone",
+    "objectTypeName": "NewsCollection",
+    "objects": [
+        {
+            "id": "news_001",
+            "user_id": "test_user_001",
+            "news_title": "人工智能在教育领域的应用前景",
+            "news_url": "https://example.com/news/ai-education",
+            "news_summary": "随着人工智能技术的发展，教育领域正在经历深刻变革。个性化学习、智能评估等应用正在改变传统教学模式。",
+            "news_image": "",
+            "linked_diary_id": "",
+            "collect_time": 1734163200000,
+            "sync_status": "synced"
+        }
+    ]
+}

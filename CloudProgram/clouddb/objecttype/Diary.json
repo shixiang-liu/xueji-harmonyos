@@ -1,0 +1,176 @@
+{
+"objectTypeName": "Diary",
+"permissions": [
+{
+"role": "World",
+"rights": ["Read", "Upsert", "Delete"]
+},
+{
+"role": "Authenticated",
+"rights": ["Read", "Upsert", "Delete"]
+},
+{
+"role": "Creator",
+"rights": ["Read", "Upsert", "Delete"]
+},
+{
+"role": "Administrator",
+"rights": ["Read", "Upsert", "Delete"]
+}
+],
+"indexes": [
+{
+"indexName": "user_create_time_idx",
+"indexList": [
+{
+"fieldName": "user_id",
+"sortType": "ASC"
+},
+{
+"fieldName": "create_time",
+"sortType": "DESC"
+}
+]
+},
+{
+"indexName": "mood_idx",
+"indexList": [
+{
+"fieldName": "mood",
+"sortType": "ASC"
+}
+]
+}
+],
+"fields": [
+{
+"fieldName": "id",
+"fieldType": "String",
+"belongPrimaryKey": true,
+"notNull": true,
+"isNeedEncrypt": false,
+"isSensitive": false
+},
+{
+"fieldName": "user_id",
+"fieldType": "String",
+"belongPrimaryKey": false,
+"notNull": true,
+"isNeedEncrypt": false,
+"isSensitive": false,
+"defaultValue": ""
+},
+{
+"fieldName": "title",
+"fieldType": "String",
+"belongPrimaryKey": false,
+"notNull": false,
+"isNeedEncrypt": false,
+"isSensitive": false,
+"defaultValue": ""
+},
+{
+"fieldName": "content",
+"fieldType": "Text",
+"belongPrimaryKey": false,
+"notNull": false,
+"isNeedEncrypt": false,
+"isSensitive": false
+},
+{
+"fieldName": "mood",
+"fieldType": "String",
+"belongPrimaryKey": false,
+"notNull": false,
+"isNeedEncrypt": false,
+"isSensitive": false,
+"defaultValue": ""
+},
+{
+"fieldName": "mood_score",
+"fieldType": "Integer",
+"belongPrimaryKey": false,
+"notNull": false,
+"isNeedEncrypt": false,
+"isSensitive": false,
+"defaultValue": "0"
+},
+{
+"fieldName": "mood_emoji",
+"fieldType": "String",
+"belongPrimaryKey": false,
+"notNull": false,
+"isNeedEncrypt": false,
+"isSensitive": false,
+"defaultValue": ""
+},
+{
+"fieldName": "audio_url",
+"fieldType": "Text",
+"belongPrimaryKey": false,
+"notNull": false,
+"isNeedEncrypt": false,
+"isSensitive": false
+},
+{
+"fieldName": "transcription",
+"fieldType": "Text",
+"belongPrimaryKey": false,
+"notNull": false,
+"isNeedEncrypt": false,
+"isSensitive": false
+},
+{
+"fieldName": "keywords",
+"fieldType": "Text",
+"belongPrimaryKey": false,
+"notNull": false,
+"isNeedEncrypt": false,
+"isSensitive": false
+},
+{
+"fieldName": "ai_analysis",
+"fieldType": "Text",
+"belongPrimaryKey": false,
+"notNull": false,
+"isNeedEncrypt": false,
+"isSensitive": false
+},
+{
+"fieldName": "create_time",
+"fieldType": "Long",
+"belongPrimaryKey": false,
+"notNull": true,
+"isNeedEncrypt": false,
+"isSensitive": false,
+"defaultValue": "0"
+},
+{
+"fieldName": "update_time",
+"fieldType": "Long",
+"belongPrimaryKey": false,
+"notNull": false,
+"isNeedEncrypt": false,
+"isSensitive": false,
+"defaultValue": "0"
+},
+{
+"fieldName": "deleted_time",
+"fieldType": "Long",
+"belongPrimaryKey": false,
+"notNull": false,
+"isNeedEncrypt": false,
+"isSensitive": false,
+"defaultValue": "0"
+},
+{
+"fieldName": "sync_status",
+"fieldType": "String",
+"belongPrimaryKey": false,
+"notNull": false,
+"isNeedEncrypt": false,
+"isSensitive": false,
+"defaultValue": "synced"
+}
+]
+}

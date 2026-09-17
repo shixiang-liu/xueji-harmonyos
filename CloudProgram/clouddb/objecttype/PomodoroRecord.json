@@ -1,0 +1,134 @@
+{
+    "objectTypeName": "PomodoroRecord",
+    "permissions": [
+        {
+            "role": "World",
+            "rights": [
+                "Read",
+                "Upsert",
+                "Delete"
+            ]
+        },
+        {
+            "role": "Authenticated",
+            "rights": [
+                "Read",
+                "Upsert",
+                "Delete"
+            ]
+        },
+        {
+            "role": "Creator",
+            "rights": [
+                "Read",
+                "Upsert",
+                "Delete"
+            ]
+        },
+        {
+            "role": "Administrator",
+            "rights": [
+                "Read",
+                "Upsert",
+                "Delete"
+            ]
+        }
+    ],
+    "indexes": [
+        {
+            "indexName": "user_date_idx",
+            "indexList": [
+                {
+                    "fieldName": "user_id",
+                    "sortType": "ASC"
+                },
+                {
+                    "fieldName": "start_time",
+                    "sortType": "DESC"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "id",
+            "fieldType": "String",
+            "belongPrimaryKey": true,
+            "notNull": true,
+            "isNeedEncrypt": false,
+            "isSensitive": false
+        },
+        {
+            "fieldName": "user_id",
+            "fieldType": "String",
+            "belongPrimaryKey": false,
+            "notNull": true,
+            "isNeedEncrypt": false,
+            "isSensitive": false,
+            "defaultValue": ""
+        },
+        {
+            "fieldName": "task_name",
+            "fieldType": "String",
+            "belongPrimaryKey": false,
+            "notNull": false,
+            "isNeedEncrypt": false,
+            "isSensitive": false,
+            "defaultValue": ""
+        },
+        {
+            "fieldName": "duration_minutes",
+            "fieldType": "Integer",
+            "belongPrimaryKey": false,
+            "notNull": true,
+            "isNeedEncrypt": false,
+            "isSensitive": false,
+            "defaultValue": "25"
+        },
+        {
+            "fieldName": "actual_minutes",
+            "fieldType": "Integer",
+            "belongPrimaryKey": false,
+            "notNull": false,
+            "isNeedEncrypt": false,
+            "isSensitive": false,
+            "defaultValue": "0"
+        },
+        {
+            "fieldName": "is_completed",
+            "fieldType": "Boolean",
+            "belongPrimaryKey": false,
+            "notNull": true,
+            "isNeedEncrypt": false,
+            "isSensitive": false,
+            "defaultValue": "false"
+        },
+        {
+            "fieldName": "start_time",
+            "fieldType": "Long",
+            "belongPrimaryKey": false,
+            "notNull": true,
+            "isNeedEncrypt": false,
+            "isSensitive": false,
+            "defaultValue": "0"
+        },
+        {
+            "fieldName": "end_time",
+            "fieldType": "Long",
+            "belongPrimaryKey": false,
+            "notNull": false,
+            "isNeedEncrypt": false,
+            "isSensitive": false,
+            "defaultValue": "0"
+        },
+        {
+            "fieldName": "sync_status",
+            "fieldType": "String",
+            "belongPrimaryKey": false,
+            "notNull": false,
+            "isNeedEncrypt": false,
+            "isSensitive": false,
+            "defaultValue": "synced"
+        }
+    ]
+}

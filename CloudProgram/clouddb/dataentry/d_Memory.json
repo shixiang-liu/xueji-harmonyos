@@ -1,0 +1,19 @@
+﻿{
+  "cloudDBZoneName": "SmartStudyZone",
+  "objectTypeName": "Memory",
+  "objects": [
+    {
+      "id": "memory_test_001",
+      "user_id": "test_user_001",
+      "memory_type": "general",
+      "keyword": "测试",
+      "weight": 1,
+      "content": "这是一条测试记忆",
+      "source_diary_ids": "",
+      "last_seen_time": 0,
+      "create_time": 1733472000000,
+      "update_time": 1733472000000,
+      "sync_status": "synced"
+    }
+  ]
+}

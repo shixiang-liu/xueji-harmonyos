@@ -1,0 +1,18 @@
+﻿{
+  "cloudDBZoneName": "SmartStudyZone",
+  "objectTypeName": "User",
+  "objects": [
+    {
+      "uid": "test_user_001",
+      "email": "test@example.com",
+      "password_hash": "",
+      "nickname": "测试用户",
+      "avatar": "",
+      "pomodoro_preference": "{\"workMinutes\":25,\"breakMinutes\":5,\"longBreakMinutes\":15}",
+      "settings": "{\"isDarkMode\":false,\"notificationsEnabled\":true}",
+      "create_time": 1733472000000,
+      "last_login": 1734163200000,
+      "sync_status": "synced"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+﻿{
+  "cloudDBZoneName": "SmartStudyZone",
+  "objectTypeName": "Diary",
+  "objects": [
+    {
+      "id": "diary_001",
+      "user_id": "user_demo_001",
+      "title": "今天的学习心得",
+      "content": "今天学习了微积分的导数部分，感觉有点困难但是收获很大。下午做了三道题，有两道成功解决了。明天要继续努力！",
+      "mood": "开心",
+      "mood_score": 80,
+      "mood_emoji": "😊",
+      "audio_url": "",
+      "transcription": "",
+      "keywords": "学习,微积分,导数,努力",
+      "ai_analysis": "{\"category\":\"学习相关\",\"suggestions\":[\"建议：继续保持学习节奏\",\"推荐：复习今天的知识点\"],\"mood\":\"积极\"}",
+      "create_time": 1734163200000,
+      "update_time": 1734163200000,
+      "deleted_time": 0,
+      "sync_status": "synced"
+    },
+    {
+      "id": "diary_002",
+      "user_id": "user_demo_001",
+      "title": "压力有点大",
+      "content": "最近考试临近，感觉压力有点大。需要合理安排时间，不要太焦虑。明天打算使用番茄钟方法来提高专注度。",
+      "mood": "焦虑",
+      "mood_score": 40,
+      "mood_emoji": "😰",
+      "audio_url": "",
+      "transcription": "",
+      "keywords": "压力,考试,焦虑,番茄钟",
+      "ai_analysis": "{\"category\":\"情绪疏导\",\"suggestions\":[\"建议：尝试番茄钟专注法\",\"推荐：适当休息，调整心态\"],\"mood\":\"需要关注\"}",
+      "create_time": 1734076800000,
+      "update_time": 1734076800000,
+      "deleted_time": 0,
+      "sync_status": "synced"
+    },
+    {
+      "id": "diary_003",
+      "user_id": "user_demo_001",
+      "title": "周末计划",
+      "content": "这个周末打算去图书馆学习，同时也要锻炼身体。目标是完成物理作业和英语阅读。",
+      "mood": "平静",
+      "mood_score": 60,
+      "mood_emoji": "😌",
+      "audio_url": "",
+      "transcription": "",
+      "keywords": "周末,计划,图书馆,锻炼",
+      "ai_analysis": "{\"category\":\"目标规划\",\"suggestions\":[\"建议：制定详细的时间表\",\"推荐：劳逸结合\"],\"mood\":\"平和\"}",
+      "create_time": 1733990400000,
+      "update_time": 1733990400000,
+      "deleted_time": 0,
+      "sync_status": "synced"
+    },
+    {
+      "id": "diary_004",
+      "user_id": "user_demo_001",
+      "title": "语音日记测试",
+      "content": "这是一条通过语音录入的日记测试。今天天气不错，心情也很好。",
+      "mood": "开心",
+      "mood_score": 75,
+      "mood_emoji": "😃",
+      "audio_url": "cloud://audio_recordings/diary_004.wav",
+      "transcription": "这是一条通过语音录入的日记测试。今天天气不错，心情也很好。",
+      "keywords": "语音,测试,天气,心情",
+      "ai_analysis": "",
+      "create_time": 1733904000000,
+      "update_time": 1733904000000,
+      "deleted_time": 0,
+      "sync_status": "synced"
+    }
+  ]
+}
+

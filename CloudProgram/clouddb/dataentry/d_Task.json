@@ -1,0 +1,34 @@
+{
+    "cloudDBZoneName": "SmartStudyZone",
+    "objectTypeName": "Task",
+    "objects": [
+        {
+            "id": "task_001",
+            "user_id": "test_user_001",
+            "title": "完成数学作业",
+            "description": "高数第三章习题1-20",
+            "goal_id": "",
+            "estimated_pomodoros": 4,
+            "actual_pomodoros": 2,
+            "is_completed": false,
+            "completed_at": 0,
+            "tag": "学习",
+            "create_time": 1734163200000,
+            "sync_status": "synced"
+        },
+        {
+            "id": "task_002",
+            "user_id": "test_user_001",
+            "title": "阅读英语文章",
+            "description": "每日英语阅读30分钟",
+            "goal_id": "",
+            "estimated_pomodoros": 1,
+            "actual_pomodoros": 1,
+            "is_completed": true,
+            "completed_at": 1734076800000,
+            "tag": "学习",
+            "create_time": 1734076800000,
+            "sync_status": "synced"
+        }
+    ]
+}

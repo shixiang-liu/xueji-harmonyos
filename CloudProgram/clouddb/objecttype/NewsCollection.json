@@ -1,0 +1,132 @@
+{
+    "objectTypeName": "NewsCollection",
+    "permissions": [
+        {
+            "role": "World",
+            "rights": [
+                "Read",
+                "Upsert",
+                "Delete"
+            ]
+        },
+        {
+            "role": "Authenticated",
+            "rights": [
+                "Read",
+                "Upsert",
+                "Delete"
+            ]
+        },
+        {
+            "role": "Creator",
+            "rights": [
+                "Read",
+                "Upsert",
+                "Delete"
+            ]
+        },
+        {
+            "role": "Administrator",
+            "rights": [
+                "Read",
+                "Upsert",
+                "Delete"
+            ]
+        }
+    ],
+    "indexes": [
+        {
+            "indexName": "user_time_idx",
+            "indexList": [
+                {
+                    "fieldName": "user_id",
+                    "sortType": "ASC"
+                },
+                {
+                    "fieldName": "collect_time",
+                    "sortType": "DESC"
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "id",
+            "fieldType": "String",
+            "belongPrimaryKey": true,
+            "notNull": true,
+            "isNeedEncrypt": false,
+            "isSensitive": false
+        },
+        {
+            "fieldName": "user_id",
+            "fieldType": "String",
+            "belongPrimaryKey": false,
+            "notNull": true,
+            "isNeedEncrypt": false,
+            "isSensitive": false,
+            "defaultValue": ""
+        },
+        {
+            "fieldName": "news_title",
+            "fieldType": "String",
+            "belongPrimaryKey": false,
+            "notNull": true,
+            "isNeedEncrypt": false,
+            "isSensitive": false,
+            "defaultValue": ""
+        },
+        {
+            "fieldName": "news_url",
+            "fieldType": "Text",
+            "belongPrimaryKey": false,
+            "notNull": false,
+            "isNeedEncrypt": false,
+            "isSensitive": false
+        },
+        {
+            "fieldName": "news_summary",
+            "fieldType": "Text",
+            "belongPrimaryKey": false,
+            "notNull": false,
+            "isNeedEncrypt": false,
+            "isSensitive": false
+        },
+        {
+            "fieldName": "news_image",
+            "fieldType": "String",
+            "belongPrimaryKey": false,
+            "notNull": false,
+            "isNeedEncrypt": false,
+            "isSensitive": false,
+            "defaultValue": ""
+        },
+        {
+            "fieldName": "linked_diary_id",
+            "fieldType": "String",
+            "belongPrimaryKey": false,
+            "notNull": false,
+            "isNeedEncrypt": false,
+            "isSensitive": false,
+            "defaultValue": ""
+        },
+        {
+            "fieldName": "collect_time",
+            "fieldType": "Long",
+            "belongPrimaryKey": false,
+            "notNull": true,
+            "isNeedEncrypt": false,
+            "isSensitive": false,
+            "defaultValue": "0"
+        },
+        {
+            "fieldName": "sync_status",
+            "fieldType": "String",
+            "belongPrimaryKey": false,
+            "notNull": false,
+            "isNeedEncrypt": false,
+            "isSensitive": false,
+            "defaultValue": "synced"
+        }
+    ]
+}
